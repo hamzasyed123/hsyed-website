@@ -1,0 +1,24 @@
+
+header{
+    display: flex;
+    height: 110px;
+    align-items: center;
+    padding-block: 20px;
+
+    a{
+        text-decoration: none;
+        padding: 5px 20px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .main-link{
+        color: black;
+        margin-right: auto;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 25px;
+    }
+}

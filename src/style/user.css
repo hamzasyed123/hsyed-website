@@ -1,0 +1,55 @@
+.user-pagename {
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.data-grid-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.data-grid-actions {
+  display: flex;
+  gap: 10px;
+}
+.data-grid-actions button {
+  background-color: #ff8c38;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 15px;
+  border: none;
+}
+.data-grid-actions button:disabled {
+  background-color: #aaaaaa;
+  cursor: not-allowed;
+}
+.data-grid-actions .delete-button {
+  background-color: #FF0000;
+}
+
+.user-action {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-action .button-column {
+  display: flex;
+  gap: 20px;
+}
+.user-action .button-column button {
+  background-color: #6750a4;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 15px;
+  border: none;
+}/*# sourceMappingURL=user.css.map */

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.pagename {
+  height: 80px;
+  padding-top: 1em;
+}
+
+.write-container {
+  background-color: #ffddb2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1em;
+  font-family: "Roboto";
+}
+.write-container .cover-image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.write-container input[type=text] {
+  padding: 5px;
+  border: none;
+}
+.write-container .button-gallery {
+  display: flex;
+  gap: 10px;
+}
+.write-container .content-container {
+  width: auto;
+  height: 300px;
+  overflow-y: scroll;
+}
+.write-container button {
+  background: #ff8c38;
+  border-radius: 999px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 5px 14px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+}
+.write-container h4 {
+  font-size: 1em;
+  margin-top: 1em;
+  font-weight: 900;
+}
+
+.ql-toolbar .ql-stroke {
+  fill: none;
+  stroke: #ff8c38;
+}
+
+.ql-toolbar .ql-fill {
+  fill: #ff8c38;
+  stroke: none;
+}
+
+.ql-toolbar .ql-picker {
+  color: #ff8c38;
+}
+
+.ql-container {
+  min-height: 300px;
+  background-color: white;
+}
+
+.popup-content .button-gallery {
+  display: flex;
+  gap: 10px;
+}
+.popup-content .button-gallery button {
+  background: #ff8c38;
+  border-radius: 999px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 5px 14px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+}/*# sourceMappingURL=write.css.map */

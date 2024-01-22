@@ -1,0 +1,38 @@
+.section-1 {
+  display: flex;
+}
+.section-1 .profile-icon {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+.section-1 .info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding-left: 50px;
+}
+.section-1 .info-column h6 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 3rem;
+}
+.about-container ul {
+  padding-left: 30px;
+}
+.about-container a {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-weight: 600;
+}
+.about-container a:hover {
+  color: #161616;
+  text-decoration: underline;
+}/*# sourceMappingURL=about.css.map */

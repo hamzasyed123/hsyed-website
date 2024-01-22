@@ -1,0 +1,41 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1em;
+}
+.contact-container h1 {
+  font-weight: bold;
+}
+.contact-container .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1em;
+  background-color: #ffddb2;
+}
+.contact-container .contact-form h4 {
+  font-size: 1em;
+  margin-top: 1em;
+  font-weight: 900;
+}
+.contact-container .contact-form input[type=text], .contact-container .contact-form input[type=email], .contact-container .contact-form select, .contact-container .contact-form textarea {
+  padding: 5px;
+  border: none;
+}
+.contact-container .contact-form textarea {
+  resize: none;
+  height: 200px;
+}
+.contact-container .contact-form input[type=submit] {
+  background-color: #ff8c38;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 15px;
+  border: 0;
+}/*# sourceMappingURL=contact.css.map */

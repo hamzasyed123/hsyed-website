@@ -1,0 +1,50 @@
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1em;
+
+  h1{
+    font-weight: bold;
+  }
+
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1em;
+    background-color: #ffddb2;
+
+    h4{
+      font-size: 1em;
+      margin-top: 1em;
+      font-weight: 900;
+    }
+  
+    input[type="text"], input[type="email"], select, textarea{
+      padding: 5px;
+      border: none;
+    }
+    
+    textarea{
+      resize: none;
+      height: 200px;
+    }
+    
+    input[type="submit"]{
+      background-color: #ff8c38;
+      border-radius: 999px;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24px;
+      width: fit-content;
+      padding: 5px 15px;
+      border: 0;
+      
+    }
+  }  
+  
+}
+

@@ -1,0 +1,15 @@
+//print the text from react quill
+<div dangerouslySetInnerHTML={{__html: textValue}}></div>
+<ReactQuill value={mainText} readOnly={true} theme={"bubble"}/>
+Sendgrid key: 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
+old key: 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
+old email: melvin77reci@gmail.com
+{
+                    if(response.ok){
+                        alert("Message sent. We will reach out soon.")
+                    }
+                    return response.json()
+                }
+new key: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
+email validation:^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$
+ngrok api key: 2WPm6RWROMV1igZyrgC35wdaLc8_3FuWrVywTg6UvQBwkk6vG
